@@ -86,7 +86,8 @@ XGBClassifier(
     colsample_bytree=0.5,
     min_child_weight=4,
     reg_alpha=1
-)```
+)
+```
 
 
 **SSVEP XGBoost Config:**
