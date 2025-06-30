@@ -76,8 +76,8 @@ EEG data was segmented into trials:
 ### 5. Model Training
 Trained XGBoost classifiers with the following config:
 
-*MI XGBoost Config:*
-python
+**MI XGBoost Config:**
+```python
 XGBClassifier(
     n_estimators=550,
     learning_rate=0.03,
@@ -86,18 +86,18 @@ XGBClassifier(
     colsample_bytree=0.5,
     min_child_weight=4,
     reg_alpha=1
-)
+)```
 
 
-*SSVEP XGBoost Config:*
-python
+**SSVEP XGBoost Config:**
+```python
 XGBClassifier(
     n_estimators=900,
     learning_rate=0.03,
     max_depth=1,
     subsample=0.8,
     colsample_bytree=0.8
-)
+)```
 
 
 ### 6. Data Augmentation
