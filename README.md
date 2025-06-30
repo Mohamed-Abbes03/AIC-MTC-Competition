@@ -115,9 +115,9 @@ SSVEP:
 
 ## 📊 Results
 
-    MI Accuracy (Validation): ~87%
+    MI Accuracy (Validation): ~76%
 
-    SSVEP Accuracy (Validation): ~86%
+    SSVEP Accuracy (Validation): ~62%
 
 Metrics include:
 
