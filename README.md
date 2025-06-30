@@ -4,23 +4,24 @@ This repository contains a full pipeline for EEG-based classification using two 
 
 ## 🖥️ System Architecture Overview
 1. *EEG Signals (CSV Files)*
+
    ↓  
-2. *Preprocessing*  
+3. *Preprocessing*  
    - Filtering (bandpass)  
    - Denoising  
    ↓  
-3. *Feature Extraction*  
+4. *Feature Extraction*  
    - Statistical features  
    - Frequency domain (FFT)  
    - Wavelet features  
    ↓  
-4. *Feature Selection*  
+5. *Feature Selection*  
    - Top 100 features using GradientBoosting importance  
    ↓  
-5. *Model Training*  
+6. *Model Training*  
    - XGBoost Classifier  
    ↓  
-6. *Prediction and Evaluation*
+7. *Prediction and Evaluation*
 
 The project is divided into two main pipelines:
 
