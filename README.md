@@ -98,7 +98,8 @@ XGBClassifier(
     max_depth=1,
     subsample=0.8,
     colsample_bytree=0.8
-)```
+)
+```
 
 
 ### 6. Data Augmentation
